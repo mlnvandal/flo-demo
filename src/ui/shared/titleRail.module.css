@@ -1,0 +1,51 @@
+.rail {
+  margin-top: 22px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.title {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+}
+
+.caption {
+  margin-top: 4px;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+}
+
+.more {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 700;
+  padding: 8px 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.more:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.row {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(160px, 1fr);
+  gap: 14px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.item {
+  min-width: 160px;
+}
+
